@@ -21,7 +21,6 @@ struct ContentView: View {
                 .init(color: Color(red: 0.76, green: 0.15, blue: 0.26), location: 0.3)], center: .top, startRadius: 200, endRadius: 700)
             .ignoresSafeArea()
 
-
             VStack {
                 Spacer()
                 Text("Guess the flag")
